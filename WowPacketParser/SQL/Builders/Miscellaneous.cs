@@ -152,5 +152,6 @@ namespace WowPacketParser.SQL.Builders
             var templateDb = SQLDatabase.Get(Storage.Scenes, Settings.WPPDatabase);
 
             return SQLUtil.Compare(Storage.Scenes, templateDb, StoreNameType.None);
+        }
     }
 }
